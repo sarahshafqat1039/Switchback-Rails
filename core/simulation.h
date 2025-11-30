@@ -1,0 +1,29 @@
+#ifndef SIMULATION_H
+#define SIMULATION_H
+
+// ============================================================================
+// SIMULATION.H - Simulation tick logic
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// MAIN SIMULATION FUNCTION
+// ----------------------------------------------------------------------------
+// Run one simulation tick.
+void simulateOneTick();
+
+// ----------------------------------------------------------------------------
+// INITIALIZATION
+// ----------------------------------------------------------------------------
+// Initialize the simulation after loading a level.
+void initializeSimulation(const char* level_file);
+
+// ----------------------------------------------------------------------------
+// UTILITY
+// ----------------------------------------------------------------------------
+// True if all trains are delivered or crashed.
+bool isSimulationComplete();
+
+// Print the grid to terminal.
+void printGrid();
+
+#endif

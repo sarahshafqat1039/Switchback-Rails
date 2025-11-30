@@ -1,0 +1,7 @@
+Trains Delivered: 0
+Trains Crashed: 10
+Total Wait Ticks: 290
+Average Wait: 29
+Switch Flips: 5
+Signal Violations: 0
+Energy Efficiency: 40.3
